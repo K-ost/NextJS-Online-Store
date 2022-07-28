@@ -1,0 +1,33 @@
+.comment {
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 10px;
+  h5 {
+    margin: 0 20px 0 0;
+  }
+  p {
+    color: #5a5a5a;
+    margin: 0;
+  }
+  &Header {
+    display: flex;
+    align-items: center;
+    margin: 0 0 8px;
+  }
+  &Date {
+    color: #5a5a5a;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  &ListHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    h4 {margin: 0;}
+    select {max-width: 200px;}
+  }
+}

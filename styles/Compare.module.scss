@@ -1,0 +1,96 @@
+.compare {
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+    height: 60px;
+    margin: 0 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  &Img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    margin: 0 0 20px;
+    img {
+      display: block;
+      max-height: 130px;
+    }
+  }
+  &Price {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    small {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  &Feats {
+    margin: 0;
+    padding: 0;
+    li {
+      border-radius: 3px;
+      list-style: none;
+      margin: 0;
+      padding: 6px 10px;
+      &:nth-child(odd) {
+        background: #e3e3e3;
+      }
+    }
+  }
+  &Remove {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
+
+.compareTable {
+  display: flex;
+  &Left {
+    min-width: 160px;
+    max-width: 160px;
+    padding: 19px 16px 0 0;
+    &Img {height: 160px;}
+    &Name {height: 70px;}
+    &Price {height: 40px;}
+    &Feats {
+      margin: 0;
+      padding: 0;
+      li {
+        border-radius: 3px;
+        list-style: none;
+        padding: 6px 10px;
+        font-weight: 500;
+        &:nth-child(odd) {
+          background: #e3e3e3;
+        }
+      }
+    }
+  }
+  &Right {
+    flex-grow: 1;
+    min-width: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .compareTable {
+    display: block;
+    &Left {
+      display: none;
+    }
+    &Right {
+      flex-grow: auto;
+    }
+  }
+}
