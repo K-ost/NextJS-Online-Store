@@ -1,0 +1,330 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ноутбук HP Laptop 15s-eq1042ua (562C2EA) Jet Black",
+      "brand": "HP",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/1/0/1088540_zoom_1_.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 14500,
+      "stock": true,
+      "text": "<p>Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке форм развития. С другой стороны постоянный количественный рост и сфера нашей активности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Таким образом новая модель организационной деятельности в значительной степени обуславливает создание систем массового участия. Не следует, однако забывать, что рамки и место обучения кадров позволяет оценить значение направлений прогрессивного развития.</p>"
+    },
+    {
+      "id": 2,
+      "name": "Ноутбук Acer Aspire 3 A315-34-P2VG (NX.HE3EU.060) Charcoal Black",
+      "brand": "Acer",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/a/c/acer-aspire-3-a315-56-black-gallery-01_1_.jpg",
+      "weight": 1400,
+      "quantity": 3,
+      "price": 12500,
+      "stock": true,
+      "text": "<p>Товарищи! постоянный количественный рост и сфера нашей активности способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. С другой стороны укрепление и развитие структуры представляет собой интересный эксперимент проверки соответствующий условий активизации. Идейные соображения высшего порядка, а также сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития.</p>"
+    },
+    {
+      "id": 3,
+      "name": "Ноутбук Lenovo IdeaPad 3 15IGL05 (81WQ000RRA) Business Black",
+      "brand": "Lenovo",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/n/x/nxn_-_2021-12-30t101145.037.jpeg.jpg",
+      "weight": 2000,
+      "quantity": 2,
+      "price": 17000,
+      "stock": true,
+      "text": "<h2>Не следует, однако забывать</h2><p>Что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение форм развития. Товарищи! укрепление и развитие структуры требуют определения и уточнения новых предложений.</p>"
+    },
+    {
+      "id": 4,
+      "name": "Ноутбук Asus X415FA-EB013 Slate Grey",
+      "brand": "Asus",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/8/2/820dcf7793e935a2836038e050b9b906.jpg",
+      "weight": 2100,
+      "quantity": 1,
+      "price": 13200,
+      "stock": false
+    },
+    {
+      "id": 5,
+      "name": "Ноутбук Apple MacBook Air M1 13'' 256Gb Z12A0008Q Gold",
+      "brand": "Apple",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/m/a/macbook-air-gold-select-201810.jpg",
+      "weight": 1400,
+      "quantity": 1,
+      "price": 48000,
+      "stock": true,
+      "text": "<h4>MacBook Air — самый тонкий и лёгкий ноутбук Apple — теперь выходит на совершенно новый уровень благодаря мощному чипу Apple M1.</h4><h4>Apple MacBook Air 13 M1 256 GB 2020</h4><p>Он быстро справляется с вашими задачами, задействуя потрясающую скорость 8‑ядерного процессора.</p><p>Открывает возможности нового уровня в приложениях и играх со сложной графикой, используя всю мощь 8‑ядерного графического процессора. И ускоряет операции машинного обучения, применяя 16‑ядерную систему Neural Engine. Всё происходит бесшумно, потому что это ноутбук без вентилятора. И он работает без подзарядки до 18 часов напролёт.</p><h4>Apple MacBook Air 13 M1 256 GB 2020</h4><p>Это MacBook Air. Всё такой же компактный. Но теперь гораздо более мощный.</p>"
+    },
+    {
+      "id": 6,
+      "name": "Ноутбук Lenovo IdeaPad 3 15IGL05 (81WQ000RRA) Business Black",
+      "brand": "Lenovo",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/n/x/nxn_22_.jpeg_2.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 13500,
+      "stock": true
+    },
+    {
+      "id": 7,
+      "name": "Ноутбук Acer Aspire 3 A315-34-P2VG (NX.HE3EU.060) Charcoal Black",
+      "brand": "Acer",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/a/c/acer-aspire-3-a315-22-22g-34-wp-01.jpg",
+      "weight": 1500,
+      "quantity": 1,
+      "price": 14800,
+      "stock": false
+    },
+    {
+      "id": 8,
+      "name": "Ноутбук Asus X415FA-EB013 Slate Grey",
+      "brand": "Asus",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/8/2/820dcf7793e935a2836038e050b9b906.jpg",
+      "weight": 1800,
+      "quantity": 1,
+      "price": 16500,
+      "stock": true
+    },
+    {
+      "id": 9,
+      "name": "Ноутбук игровой HP Pavilion Gaming 15-ec2023ua (562C0EA) Shadow Black",
+      "brand": "HP",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/c/0/c07956601.webp.jpg",
+      "weight": 1500,
+      "quantity": 1,
+      "price": 33500,
+      "stock": true
+    },
+    {
+      "id": 10,
+      "name": "Ноутбук Acer Swift 1 SF114-34 (NX.A7BEU.00E) Gold",
+      "brand": "Acer",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 14000,
+      "stock": true
+    },
+    {
+      "id": 11,
+      "name": "Ноутбук HP Pavilion Aero 13-be0026ua (5A5Z0EA) Silver",
+      "brand": "HP",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/_/2/_2022-01-25_170233_1__1.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 34000,
+      "stock": true
+    },
+    {
+      "id": 12,
+      "name": "Ноутбук Dell Latitude 3420 (N099L342014UA_WP) Black",
+      "brand": "Dell",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/d/e/dell-latitude-3420-_n099l342014ua_wp_-black.jpg",
+      "weight": 1500,
+      "quantity": 1,
+      "price": 35000,
+      "stock": false
+    },
+    {
+      "id": 13,
+      "name": "Ноутбук MSI Modern 14 (B11MOU-874XUA) Gray",
+      "brand": "MSI",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/m/s/msi-modern-14-b11mou-874xua-carbon-gray.jpg",
+      "weight": 1650,
+      "quantity": 1,
+      "price": 22000,
+      "stock": true
+    },
+    {
+      "id": 14,
+      "name": "Ноутбук Huawei MateBook D15 (53013AWC) Mystic Silver",
+      "brand": "Huawei",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/m/a/matebook-d-15_silver_product-image02_1__1_1_.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 28000,
+      "stock": true
+    },
+    {
+      "id": 15,
+      "name": "Ноутбук Apple MacBook Pro 16'' M1 Pro 512GB MK183 Space Gray",
+      "brand": "Apple",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/m/a/macbook_pro_16-in_q122_space_gray_pdp_image_position-1__ww-ru_1__2.jpg",
+      "weight": 1400,
+      "quantity": 1,
+      "price": 101000,
+      "stock": true
+    },
+    {
+      "id": 16,
+      "name": "Ноутбук игровой Gigabyte G5 KC (G5_KC-5RU1130SD) Black",
+      "brand": "Gigabyte",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/g/5/g5_kc-5ru1130sd.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 52000,
+      "stock": true
+    },
+    {
+      "id": 17,
+      "name": "Ноутбук игровой Dream Machines RG3060-15 (RG3060-15UA29) Black",
+      "brand": "Dream Machines",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/6/1/61c1fd5f7bc86_rg3060-15ua29.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 54000,
+      "stock": true
+    },
+    {
+      "id": 18,
+      "name": "Ноутбук Microsoft Surface Laptop 4 (5B2-00043) Platinum",
+      "brand": "Microsoft",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/m/i/microsoft_surface_laptop_4_5b2-00043_platinum_1_.jpg",
+      "weight": 1400,
+      "quantity": 1,
+      "price": 65300,
+      "stock": true
+    },
+    {
+      "id": 19,
+      "name": "Ноутбук Asus Vivobook 14 K413EA-EK1768 Black",
+      "brand": "Asus",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/9/5/959522-fghfh.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 17000,
+      "stock": true
+    },
+    {
+      "id": 20,
+      "name": "Ноутбук Asus K3400PH-KM108W Quiet Blue",
+      "brand": "Asus",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/a/s/asus-k3400ph-km108w-quiet-blue.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 37000,
+      "stock": true
+    },
+    {
+      "id": 21,
+      "name": "Ноутбук HP 255 G8 (27K46EA) Silver",
+      "brand": "HP",
+      "img": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/h/p/hp_255_g8_27k46ea_silver_6_.jpg",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 19500,
+      "stock": true
+    },
+    {
+      "id": 22,
+      "name": "Ноутбук Asus K3100PH",
+      "brand": "Asus",
+      "weight": 1500,
+      "quantity": 1,
+      "price": 15000,
+      "stock": true
+    },
+    {
+      "id": 23,
+      "name": "Ноутбук Asus AJ5200JH",
+      "brand": "Asus",
+      "weight": 1700,
+      "quantity": 1,
+      "price": 12300,
+      "stock": false
+    }
+  ],
+  "comments": [
+    {
+      "postId": 5,
+      "name": "Kostya",
+      "email": "golubkovru@gmail.com",
+      "body": "Это MacBook Air. Всё такой же компактный. Но теперь гораздо более мощный.",
+      "date": 1659010150541,
+      "id": 1
+    },
+    {
+      "postId": 5,
+      "name": "Kostya",
+      "email": "golubkovru@gmail.com",
+      "body": "Check comment system",
+      "date": 1659010675793,
+      "id": 2
+    },
+    {
+      "postId": 5,
+      "name": "Kostya",
+      "email": "golubkovru@gmail.com",
+      "body": "Открывает возможности нового уровня в приложениях и играх со сложной графикой, используя всю мощь 8‑ядерного графического процессора. И ускоряет операции машинного обучения, применяя 16‑ядерную систему Neural Engine. Всё происходит бесшумно, потому что это ноутбук без вентилятора. И он работает без подзарядки до 18 часов напролёт.",
+      "date": 1659010694782,
+      "id": 3
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "title": "Acer",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Acer_2011.svg/200px-Acer_2011.svg.png",
+      "text": "Компания Acer разрабатывает и производит ноутбуки, персональные компьютеры, мониторы, проекторы, самокаты, а также аксессуары для своей продукции и другое"
+    },
+    {
+      "id": 2,
+      "title": "Apple",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/80px-Apple_logo_black.svg.png",
+      "text": "<p><b>Apple</b> - американская корпорация, производитель персональных и планшетных компьютеров, аудиоплееров, смартфонов, программного обеспечения и цифрового контента.</p><p>Один из пионеров в области персональных компьютеров[13] и современных многозадачных операционных систем с графическим интерфейсом. Штаб-квартира — в Купертино, штат Калифорния. Благодаря инновационным технологиям и эстетичному дизайну корпорация Apple создала в индустрии потребительской электроники уникальную репутацию, сравнимую с культом</p>.<p>В августе 2018 года стала первой американской компанией, чья капитализация превысила 1 трлн долларов США, и самой дорогой публичной компанией за всю историю, обойдя предыдущего рекордсмена — компанию PetroChina (1,005 трлн долларов в ноябре 2007 года).[15][16]. В январе 2022 года Apple стала первой компанией в мире, рыночная капитализация которой достигла 3 триллионов долларов США.[17][18]</p><p>В 2018 году заняла третье место в списке 500 лучших работодателей мира по мнению журнала Forbes</p>"
+    },
+    {
+      "id": 3,
+      "title": "Asus",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/ASUS_Corporate_Logo.svg/200px-ASUS_Corporate_Logo.svg.png",
+      "text": "<p><b>Asus</b> также производит различные компоненты для продуктов других корпораций, включая Sony (PlayStation 2), Apple Inc. до 2010 года (iPod, iPod Shuffle, MacBook), Alienware, Falcon Northwest, Palm, Inc., HP и многие другие производители оборудования используют материнские платы ASUS в своих системах (c 2008 года вся перечисленная продукция изготавливается на производственных мощностях Pegatron Corporation)</p>"
+    },
+    {
+      "id": 4,
+      "title": "Dell",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dell_Technologies_logo.svg/200px-Dell_Technologies_logo.svg.png",
+      "text": "<p>американская корпорация, одна из крупнейших компаний в области производства компьютеров. Входила в список Fortune 1000 (26-е место по итогам 2005 года), акции торговались на бирже NASDAQ, с 2013 года — частная компания[4]. Штаб-квартира находится в Раунд-Роке в штате Техас в США.</p><p>Основатель, председатель совета директоров и главный управляющий компании — Майкл Делл</p>"
+    },
+    {
+      "id": 5,
+      "title": "Dream Machines"
+    },
+    {
+      "id": 6,
+      "title": "Gigabyte",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Gigabyte_Technology_logo_20080107.svg/200px-Gigabyte_Technology_logo_20080107.svg.png",
+      "text": "<p>тайваньская компания по производству системных плат, видеокарт и другой компьютерной техники. Основана в 1986 году.</p><p>Организационно структура холдинга Gigabyte представлена следующими компаниями:</p><ul><li>Gigabyte Technology Co., Ltd. — разработка и производство системных и графических плат, а также периферийных устройств для настольных ПК;</li><li>Gigabyte Communications Inc. (основана в 2004) — производство коммуникаторов и смартфонов под маркой GSmart (с 2006);</li><li>Gigazone International Co., Ltd. — специализируется на выпуске корпусов для настольных ПК, мониторов (торговая марка ENVISION), блоков питания и систем охлаждения ЦП;</li></ul><p>G-Style Co., Ltd. — производство ноутбуков и планшетных ПК.</p>"
+    },
+    {
+      "id": 7,
+      "title": "HP",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HP_D_B_RGB_72_MX%2Bspace.png/200px-HP_D_B_RGB_72_MX%2Bspace.png",
+      "text": "<p><b>HP Inc.</p> — американская IT-компания, образовавшаяся в 2015 году вместе с Hewlett Packard Enterprise в результате разделения Hewlett-Packard[3], унаследовала производство персональных компьютеров и принтеров[3]. Является правопреемником Hewlett-Packard, поскольку сохранила оригинальный NYSE-тикер HPQ и официальный сайт в домене hp.com, действовавшем до разделения. Численность сотрудников на момент раздела — около 50 тыс. Генеральный директор — Дион Уайслер[4]. Производственные мощности компании расположены в США, Сингапуре, Малайзии, Израиле и других странах.</p>"
+    },
+    {
+      "id": 8,
+      "title": "Huawei",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Huawei_wordmark_2019.svg/200px-Huawei_wordmark_2019.svg.png",
+      "text": "<p><b>Huawei Technologies Co. Ltd.</b> — китайская компания, одна из крупнейших мировых компаний в сфере телекоммуникаций[7]. Основана в 1987 году бывшим инженером Народно-освободительной армии Китая Жэнь Чжэнфэем</p>"
+    },
+    {
+      "id": 9,
+      "title": "Lenovo",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Lenovo_logo_%282015_onwards%29_2.svg/200px-Lenovo_logo_%282015_onwards%29_2.svg.png",
+      "text": "<p><b>Lenovo Group Limited</b> — китайская транснациональная корпорация, выпускающая персональные компьютеры и другую электронику. Является крупнейшим производителем персональных компьютеров в мире с долей на рынке более 20 %[4], а также занимает пятое место по производству мобильных телефонов. Штаб-квартира компании Lenovo расположена в Пекине (КНР), а зарегистрирована компания в Гонконге. Основные исследовательские центры компании расположены в Пекине, Шанхае и Шэньчжэне (КНР), а также в Ямато (Япония).</p>"
+    },
+    {
+      "id": 10,
+      "title": "Microsoft",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/200px-Microsoft_logo_%282012%29.svg.png",
+      "text": "<p><b>Microsoft Corporation</b> — одна из крупнейших транснациональных компаний по производству проприетарного программного обеспечения для различного рода вычислительной техники — персональных компьютеров, игровых приставок, КПК, мобильных телефонов и прочего. Разработчик наиболее широко распространённой на данный момент в мире программной платформы[6] — семейства операционных систем Windows.</p>"
+    },
+    {
+      "id": 11,
+      "title": "MSI",
+      "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/10/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_MSI.png/100px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_MSI.png",
+      "text": "<p><b>Micro-Star International Co., Ltd (MSI)</b> — тайваньская компания по производству электроники. Основана в 1986 году, владеет собственными производственными мощностями.</p><p>Является одним из лидеров по срокам предложения новинок на IT-рынке (рынке электроники). В последние время компания максимально сконцентрировала свои усилия на разработке и выпуске продукции для наиболее требовательной части IT-аудитории: для геймеров (игровые серии ноутбуков, моноблоков, баребонов, материнских плат, видеокарт); для профессиональных пользователей CAD/CAM-систем.</p>"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
