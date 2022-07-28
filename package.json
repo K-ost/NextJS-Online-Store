@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "serve": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "mock": "json-server -w db.json -p 5000 -d 1000",
-    "serve": "concurrently \"npm run mock\" \"npm run dev\""
+    "dev": "concurrently \"npm run mock\" \"npm run dev\""
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
