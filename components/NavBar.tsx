@@ -26,10 +26,9 @@ const NavBar: React.FC = () => {
 
         <div>
           {!compare.length
-            ? <button className="btn btn-outline-light" disabled>Compare</button>
+            ? <button className="btn btn-outline-light headbtn-compare" disabled></button>
             : <Link href={"/compare"}>
-              <a className="btn btn-outline-light position-relative">
-                Compare
+              <a className="btn btn-outline-light headbtn-compare position-relative">
                 {compare.length > 0 &&
                   <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{compare.length}</span>
                 }
@@ -38,10 +37,9 @@ const NavBar: React.FC = () => {
           }
 
           {!orders.length
-            ? <button className="btn btn-outline-light" disabled>Cart</button>
+            ? <button className="btn btn-outline-light headbtn-cart" disabled></button>
             : <Link href="/basket">
-              <a className="btn btn-outline-light position-relative">
-                Cart
+              <a className="btn btn-outline-light position-relative headbtn-cart">
                 {ordersCount > 0 &&
                   <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{ordersCount}</span>
                 }

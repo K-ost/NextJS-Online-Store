@@ -12,13 +12,23 @@ interface ICommentList {
 const CommentsList: React.FC<ICommentList> = ({ comments, postId }) => {
   const [commentsState, setCommentsState] = useState<IComment[]>(comments)
 
+  // orderCommentsHandler
+  const orderCommentsHandler = (value: string) => {
+    if (value === 'asc') {
+      setCommentsState(prev => prev.slice().sort((a, b) => b.date - a.date))
+    }
+    if (value === 'desc') {
+      setCommentsState(prev => prev.slice().sort((a, b) => a.date - b.date))
+    }
+  }
+
   return (
     <div>
       <div className={styles.commentListHeader}>
         <h4>Comments ({commentsState.length})</h4>
-        <select className="form-select">
-          <option>Date asc</option>
-          <option>Date desc</option>
+        <select className="form-select" onChange={e => orderCommentsHandler(e.target.value)}>
+          <option value="asc">newer first</option>
+          <option value="desc">older first</option>
         </select>
       </div>
       {commentsState.map(el => <Comment key={el.id} comment={el} />)}

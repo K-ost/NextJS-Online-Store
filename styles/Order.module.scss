@@ -5,6 +5,7 @@
   padding: 12px 16px;
   display: flex;
   align-items: center;
+  position: relative;
   &Img {
     min-width: 140px;
     max-width: 140px;
@@ -29,5 +30,15 @@
   &Remove {
     margin-left: auto;
     padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .orderbox {
+    display: block;
+    &Img {min-width: 80px; max-width: 80px; margin-right: 16px;}
+    &Content {display: block;}
+    &Remove {position: absolute; right: 10px; top: 10px;}
+    &Price {margin: 0 0 10px;}
   }
 }
