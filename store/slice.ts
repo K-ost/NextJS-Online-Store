@@ -1,4 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+import { server } from '../helpers'
 import { IBrand, IOrder, IProduct, objFetch } from '../types/types'
 
 // Fetching products
@@ -6,7 +7,7 @@ export const fetchProducts = createAsyncThunk(
   'products/fetchProducts',
   async (obj: objFetch) => {
     const { count, page, sort, filter } = obj
-    const response = await fetch(`http://localhost:5000/products?_limit=${count}&_page=${page}${sort}${filter}`)
+    const response = await fetch(`${server}/products?_limit=${count}&_page=${page}${sort}${filter}`)
     const data = await response.json()
     const total = response.headers.get('X-Total-Count')
     return { data, total }
@@ -17,7 +18,7 @@ export const fetchProducts = createAsyncThunk(
 export const fetchBrands = createAsyncThunk(
   'brands/fetchBrands',
   async () => {
-    const response = await fetch('http://localhost:5000/brands')
+    const response = await fetch(`${server}/brands`)
     const brands = await response.json()
     return brands
   }

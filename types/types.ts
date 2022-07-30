@@ -26,8 +26,8 @@ export interface objFetch {
 export interface IBrand {
   id: number
   title: string
-  img: string
-  text: string
+  img?: string
+  text?: string
 }
 
 export interface IComment {

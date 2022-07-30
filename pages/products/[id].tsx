@@ -5,6 +5,7 @@ import { Layout } from '../../components/Layout'
 import { IComment, IProduct } from '../../types/types'
 import good from '../../styles/Good.module.scss'
 import Compare from '../../components/Compare'
+import { server } from '../../helpers'
 
 interface IProductPage {
   product: IProduct
@@ -69,11 +70,11 @@ export default ProductPage
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   // Fetch product
-  const response = await fetch(`http://localhost:5000/products/${query.id}`)
+  const response = await fetch(`${server}/products/${query.id}`)
   const product = await response.json()
 
   // Fetch comments of product
-  const responseCom = await fetch(`http://localhost:5000/posts/${query.id}/comments`)
+  const responseCom = await fetch(`${server}/posts/${query.id}/comments`)
   const comments = await responseCom.json()
 
   // ?_sort=date&_order=asc

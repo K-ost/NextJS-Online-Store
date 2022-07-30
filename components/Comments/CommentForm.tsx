@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { useDispatch } from "react-redux"
+import { server } from "../../helpers"
 import { setNotice } from "../../store/slice"
 import { AppDispatch } from "../../store/store"
 import { IComment } from "../../types/types"
@@ -20,7 +21,7 @@ const CommentForm: React.FC<ICommentForm> = ({ postId, func }) => {
   const onSubmit = async (data: any) => {
     setLoad(true)
     reset()
-    const response = await fetch('http://localhost:5000/comments', {
+    const response = await fetch(`${server}/comments`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({postId, ...data, date: Date.now()})
