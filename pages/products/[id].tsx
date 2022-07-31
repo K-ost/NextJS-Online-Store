@@ -44,6 +44,18 @@ const ProductPage: NextPage<IProductPage> = ({ product, comments }) => {
                 <td>{product?.brand}</td>
               </tr>
               <tr>
+                <th scope="row">CPU</th>
+                <td>{product?.cpu}</td>
+              </tr>
+              <tr>
+                <th scope="row">Memory</th>
+                <td>{product?.memory}</td>
+              </tr>
+              <tr>
+                <th scope="row">Hard drive</th>
+                <td>{product?.HDD}</td>
+              </tr>
+              <tr>
                 <th scope="row">Weight</th>
                 <td>{product?.weight}</td>
               </tr>

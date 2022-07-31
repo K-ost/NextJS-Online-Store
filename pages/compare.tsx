@@ -36,6 +36,9 @@ const Compare: NextPage = () => {
           <div className={styles.compareTableLeftPrice}></div>
           <ul className={styles.compareTableLeftFeats}>
             <li>Available:</li>
+            <li>CPU:</li>
+            <li>Memory:</li>
+            <li>Hard drive:</li>
             <li>Count:</li>
             <li>Weight:</li>
           </ul>

@@ -1,0 +1,60 @@
+/* filter */
+.filter {
+  padding-right: 20px;
+  .btn {
+    width: 100%;
+  }
+  &MainHead {margin-bottom: 20px;}
+  &Header {
+    background: #454545;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 4px 12px;
+    margin: 0 0 6px;
+  }
+  &Show {
+    background: #454545 url(../assets/filter.svg) center center / 24px no-repeat;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+  }
+}
+
+
+@media screen and (max-width: 920px) {
+  .filter {
+    margin: 0 0 16px; padding: 0;
+    &MainHead {margin-bottom: 0; background: #e3e3e3; padding: 10px 16px;}
+    &Content {overflow: auto; flex: 1; padding: 10px 16px;}
+    &Footer {background: #e3e3e3; padding: 10px 16px;}
+  }
+  .filterInner {
+    width: 280px;
+    background: #fff;
+    box-shadow: 4px 0 10px rgba(0,0,0,0.15);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    transition: all 200ms ease-in-out;
+    z-index: 500;
+    transform: translateX(-300px);
+    &.opened {transform: translateX(0);}
+  }
+  .filterShow {display: block;}
+}
+@media screen and (max-width: 750px) {
+  .filterChoose {margin-bottom: 8px;}
+}

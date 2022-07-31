@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from "next/image"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { loadOrders, updateCompare } from "../store/slice"
@@ -31,15 +32,25 @@ export const Layout: React.FC<ILayout> = ({ children, keywords, title }) => {
   }, [dispatch])
 
   return (
-    <div>
+    <div className="app">
       <Head>
         <title>{title}</title>
         <meta name="keywords" content={keywords} />
       </Head>
       <NavBar />
-      <div className="container">
-        {children}
-      </div>
+      <main>
+        <div className="container">
+          {children}
+        </div>
+      </main>
+      <footer className="footer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          Powered by{' '}
+          <span className="footer-logo">
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
+      </footer>
       {notice &&
         <Notice message={notice} show={notice !== null} />
       }

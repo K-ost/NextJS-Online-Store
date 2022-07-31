@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import { server } from '../helpers'
-import { IBrand, IOrder, IProduct, objFetch } from '../types/types'
+import { IBrand, IFeatures, IOrder, IProduct, objFetch } from '../types/types'
 
 // Fetching products
 export const fetchProducts = createAsyncThunk(
@@ -24,6 +24,16 @@ export const fetchBrands = createAsyncThunk(
   }
 )
 
+// Fetching products
+export const fetchFeatures = createAsyncThunk(
+  'features/fetchFeatures',
+  async () => {
+    const response = await fetch(`${server}/products`)
+    const data = await response.json()
+    return data
+  }
+)
+
 export interface sliceState {
   products: IProduct[]
   loading: 'pending' | 'succeeded' | 'failed'
@@ -37,6 +47,7 @@ export interface sliceState {
   orders: IOrder[]
   notice: string | null
   compare: IProduct[]
+  features: IFeatures | null
 }
 
 const initialState: sliceState = {
@@ -51,7 +62,8 @@ const initialState: sliceState = {
   brands: [],
   orders: [],
   notice: null,
-  compare: []
+  compare: [],
+  features: null
 }
 
 export const slice = createSlice({
@@ -181,6 +193,22 @@ export const slice = createSlice({
     })
     builder.addCase(fetchBrands.fulfilled, (state, action) => {
       state.brands = action.payload
+    })
+    builder.addCase(fetchFeatures.fulfilled, (state, action) => {
+      const list = action.payload
+      const cpuList: string[] = []
+      const memoryList: string[] = []
+      const hddList: string[] = []
+      list.forEach((el: IProduct) => {
+        if (!cpuList.includes(el.cpu)) cpuList.push(el.cpu)
+        if (!memoryList.includes(el.memory)) memoryList.push(el.memory)
+        if (!hddList.includes(el.HDD)) hddList.push(el.HDD)
+      })
+      state.features = {
+        cpu: cpuList.sort(),
+        memory: memoryList.sort(),
+        HDD: hddList.sort()
+      }
     })
   },
 })

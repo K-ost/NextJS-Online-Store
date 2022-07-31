@@ -23,6 +23,9 @@ const CompareItem: React.FC<ICompareItem> = ({ el }) => {
       <div className={styles.comparePrice}>{el.price.toLocaleString()} <small>UAH</small></div>
       <ul className={styles.compareFeats}>
         <li>{el.stock ? "In stock" : "Out of stock"}</li>
+        <li>{el.cpu}</li>
+        <li>{el.memory}</li>
+        <li>{el.HDD}</li>
         <li>{el.quantity}</li>
         <li>{el.weight}</li>
       </ul>

@@ -25,11 +25,13 @@ const CommentsList: React.FC<ICommentList> = ({ comments, postId }) => {
   return (
     <div>
       <div className={styles.commentListHeader}>
-        <h4>Comments ({commentsState.length})</h4>
-        <select className="form-select" onChange={e => orderCommentsHandler(e.target.value)}>
+        <h4>{(commentsState.length > 1) ? `Comments (${commentsState.length})` : `Comments do not exists`}</h4>
+
+        {(commentsState.length > 1) && <select className="form-select" onChange={e => orderCommentsHandler(e.target.value)}>
           <option value="asc">newer first</option>
           <option value="desc">older first</option>
-        </select>
+        </select>}
+
       </div>
       {commentsState.map(el => <Comment key={el.id} comment={el} />)}
       <CommentForm postId={postId} func={(com: IComment) => setCommentsState(prev => [com, ...prev])} />

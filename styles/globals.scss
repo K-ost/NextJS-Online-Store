@@ -15,8 +15,18 @@ img {max-width: 100%;}
 .btn {
   box-shadow: none !important;
   .spinner-border {margin-right: 8px;}
+  &-block {display: block; width: 100%;}
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  main {
+    padding: 20px 0;
+    flex: 1;
+  }
+}
 .container {
   margin: 0 auto;
   max-width: 980px;
@@ -57,21 +67,21 @@ img {max-width: 100%;}
 // Navbar
 .navbar {
   background: #333;
-  margin: 0 0 20px;
-  padding: 4px;
+  margin: 0;
+  padding: 4px 0;
   ul {
     display: flex;
     margin: 0;
     padding: 0;
     li {
       list-style: none;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 20px;
       a {
         border-radius: 3px;
         color: #fff;
         display: block;
-        padding: 14px 20px;
+        padding: 10px 16px;
         transition: all 200ms ease-in-out;
         &:hover {
           background: #e3e3e3;
@@ -86,6 +96,26 @@ img {max-width: 100%;}
   }
   .btn {
     margin-left: 10px;
+  }
+}
+
+
+/* footer */
+.footer {
+  display: flex;
+  padding: 20px 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  &-logo {
+    height: 1em;
+    margin-left: 0.5rem;
   }
 }
 
@@ -248,15 +278,6 @@ img {max-width: 100%;}
 }
 
 
-/* filter */
-.filter {
-  padding-right: 20px;
-  .btn {
-    width: 100%;
-  }
-  &-show {display: none;}
-}
-
 /* btn-compare */
 .btn-compare {
   background: 0 !important;
@@ -296,21 +317,11 @@ img {max-width: 100%;}
 }
 
 
-
-@media screen and (max-width: 920px) {
-  .filter {margin: 0 0 16px; padding: 0;}
-  .filter-inner {display: none; padding: 16px 0 0;}
-  .filter-inner.opened {display: block;}
-  .filter-show {display: block;}
-}
-
 @media screen and (max-width: 750px) {
-  .filter .filter-choose {margin-bottom: 8px;}
-
   .navbar {
     padding: 4px 0;
-    ul li {font-size: 16px;}
-    ul li a {padding: 12px;}
+    ul li {font-size: 14px;}
+    ul li a {padding: 10px;}
     .btn {margin-left: 5px;}
   }
 }

@@ -19,6 +19,7 @@ const Products: React.FC = () => {
   const sort = useSelector((state: RootState) => state.app.sort)
   const page = useSelector((state: RootState) => state.app.page)
   const filter = useSelector((state: RootState) => state.app.filter)
+  const totalCount = useSelector((state: RootState) => state.app.totalCount)
 
   useEffect(() => {
     if (loading === 'pending') {
@@ -45,6 +46,7 @@ const Products: React.FC = () => {
         <div className="col-12 col-lg-9">
           <div className="row">
             {products.map(el => <Product key={el.id} product={el} />)}
+            {totalCount === 0 && <h5>Products not found</h5>}
             {loading === 'pending' && !products.length && <Skelets count={pageCount} />}
           </div>
           <Pager length={length} count={pageCount} />

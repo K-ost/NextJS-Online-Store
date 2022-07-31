@@ -7,6 +7,9 @@ export interface IProduct {
   quantity: number
   price: number
   stock: boolean
+  cpu: string
+  memory: string
+  HDD: string
   text?: any
   count?: number
 }
@@ -47,4 +50,10 @@ export interface IOrder {
   brand: string
   count: number
   total: number
+}
+
+export interface IFeatures {
+  cpu: string[]
+  memory: string[]
+  HDD: string[]
 }
